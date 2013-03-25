@@ -90,7 +90,7 @@ function message ($message, $k, $die) {
 }
 
 /* Il cookie viene salvato come
- * id:md5(username:password)
+ * id_md5(username:password)
  */
 $data = $_COOKIE['data'];
 if (empty ($data)) {
